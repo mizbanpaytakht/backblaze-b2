@@ -1,0 +1,36 @@
+{
+    "name": "mizbanpaytakht/backblaze-b2",
+    "description": "An SDK for working with B2 cloud storage.",
+    "keywords": ["b2", "storage", "backblaze", "cloud", "filesystem", "backup", "backblaze-b2", "backblaze-api"],
+    "homepage": "https://github.com/mizbanpaytakht/backblaze-b2",
+    "license": "LGPL-3.0-or-later",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kamran Biglari",
+            "email": "kamran.biglari@gmail.com",
+            "homepage": "https://ehost.host"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.5 || ^7.0",
+        "illuminate/cache": ">=5.1.0",
+        "illuminate/container": ">=5.1.0",
+        "illuminate/filesystem": ">=5.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mizbanpaytakht\\B2\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "mizbanpaytakht\\B2\\Tests\\": "tests/"
+        }
+    }
+}
